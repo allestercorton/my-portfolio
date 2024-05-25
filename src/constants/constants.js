@@ -87,3 +87,9 @@ export const PROJECTS = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
   },
 ]
+
+export const CONTACTS = {
+  address: 'Ormoc City, Philippines',
+  phone: '09513666254',
+  email: 'cortonallester@gmail.com',
+}

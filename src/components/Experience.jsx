@@ -11,7 +11,6 @@ const Experience = () => {
             <div className='w-full lg:w-1/4'>
               <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>
             </div>
-
             <div className='w-full max-w-xl lg:w-3/4'>
               <h6 className='mb-2 font-semibold'>
                 {experience.role} -{' '}
@@ -19,9 +18,7 @@ const Experience = () => {
                   {experience.company}
                 </span>
               </h6>
-
               <p className='mb-4 text-neutral-400'>{experience.description}</p>
-
               {experience.technologies.map((tech, index) => (
                 <span
                   key={index}
